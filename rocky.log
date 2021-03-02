@@ -1,0 +1,22 @@
+{"level":"INFO","time":"2021-03-02T12:56:34.297+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T12:56:34.297+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T12:57:11.579+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T12:57:11.579+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T12:58:00.654+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T12:58:00.654+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T12:58:20.785+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T12:58:20.786+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T12:58:26.909+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T12:58:26.910+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T13:00:06.605+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T13:00:06.605+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T13:04:41.027+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-03-02T13:04:41.028+0800","caller":"rocky/main.go:29","msg":"logger init success"}
+{"level":"INFO","time":"2021-03-02T13:05:57.617+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=1&page=1&order=score","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002303031}
+{"level":"INFO","time":"2021-03-02T13:06:13.924+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"GET","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000018135}
+{"level":"ERROR","time":"2021-03-02T13:06:36.660+0800","caller":"controllers/user.go:58","msg":"logic.Login failed","username":"admin","error":"用户不存在"}
+{"level":"INFO","time":"2021-03-02T13:06:36.662+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002626881}
+{"level":"ERROR","time":"2021-03-02T13:06:47.788+0800","caller":"controllers/user.go:20","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2021-03-02T13:06:47.788+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000258322}
+{"level":"INFO","time":"2021-03-02T13:07:01.167+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004161784}
+{"level":"INFO","time":"2021-03-02T13:07:11.131+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000636291}
